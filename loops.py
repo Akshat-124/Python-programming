@@ -87,22 +87,22 @@
 # 
 # 
 # lets practice
-#1.wap to find sum of first n numbers
-n=5
-sum=0
-i=1
-while i<=n:
-    sum+=i
-    i+=1
-print("total sum=", sum)    
-#2.factorial of n number
-n=5
-fact=1
-i=1
-while i<=n:
-    fact*=i
-    i+=1
-print("factorial=", fact)    
+# #1.wap to find sum of first n numbers
+# n=5
+# sum=0
+# i=1
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print("total sum=", sum)    
+# #2.factorial of n number
+# n=5
+# fact=1
+# i=1
+# while i<=n:
+#     fact*=i
+#     i+=1
+# print("factorial=", fact)    
 
  
  
