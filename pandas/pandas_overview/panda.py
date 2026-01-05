@@ -14,4 +14,4 @@ print(akshat)
 print(akshat['speed'])
 akshat['speed'][0]=50
 print(akshat)
-akshat.to_csv('akshat.csv')  #save csv in which speed is 50
+akshat.to_csv('akshat.csv' )  #save csv in which speed is 50
