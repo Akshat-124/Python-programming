@@ -6,7 +6,7 @@ newdf = pd.DataFrame(np.random.rand(334,5),index=np.arange(334))
 # newdf.loc[0,0]=654
 # print(newdf.head(2))
 
-newdf.columns=list("ABCDE")      #change column no. to ABCDE
+# newdf.columns=list("ABCDE")      #change column no. to ABCDE
 # newdf.loc[0,0]=654
 # print(newdf.head())      #it will create another column succeding E i.e 0 in which 654 is there
 
@@ -29,5 +29,6 @@ newdf.columns=list("ABCDE")      #change column no. to ABCDE
 # print(newdf.reset_index(drop=True))     #start from 0 and drop will remove index column
 
 ####isnull####
-newdf()
-print(newdf['B'].isnull)
+# newdf
+# print(newdf['B'].isnull)
+#always use loc for this also because we dont know either there is view or copy

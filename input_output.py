@@ -31,9 +31,10 @@ f.close()
 with open("demo.txt", "r") as f:          #as is an alias
        data=f.read()
        print(data)
+       print(data)
 #using with syn we dont need to close the file cuz with syn automatically close the file
 
-##DELETING a file##
+##DELETING a file# #
 # import os
 # os.remove(filename) #through this we can remove a file
 

@@ -9,9 +9,9 @@ import pandas as pd
 # print(df)
 # df.to_csv('friends.csv')  #convert data to csv file (excle sheet)
 # df.to_csv('friends_index_false.csv',index=False) #remove index from csv
-akshat=pd.read_csv('pandas/akshat.csv')
+akshat=pd.read_csv('pandas/akshat.csv')  #giving full path
 print(akshat)
 print(akshat['speed'])
 akshat['speed'][0]=50
 print(akshat)
-akshat.to_csv('akshat.csv')
+akshat.to_csv('akshat.csv')  #save csv in which speed is 50

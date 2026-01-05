@@ -14,4 +14,4 @@ print(type(newdf))
 print(newdf.sort_index(axis=0, ascending=False))
 newdf2 = newdf
 newdf2[0][0]=9783
-print(newdf)
+print(newdf)     #this shows view i.e newdf2 is a view of newdf
