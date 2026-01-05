@@ -38,10 +38,18 @@ with open("demo.txt", "r") as f:          #as is an alias
 # os.remove(filename) #through this we can remove a file
 
 #lets practice
-with open ("practice.txt","r") as f:
-       data=f.read()
-new_data = data.replace("java","python")
-print(new_data)
-with open("practice.txt","w") as f:
-       f.write(new_data)
-       
+
+# with open ("practice.txt","r") as f:
+#        data=f.read()
+# new_data = data.replace("java","python")
+# print(new_data)
+# with open("practice.txt","w") as f:
+#        f.write(new_data)
+
+# with open("practice.txt","r"):
+#        data=f.read()
+#        word="learning"
+#        if (data.find(word) != -1):
+#               print("found")
+#        else:
+#               print("not found")
