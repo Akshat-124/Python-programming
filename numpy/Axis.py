@@ -30,7 +30,7 @@ print(ar)
 max1=ar.argmax()
 print(max1)
 sort0=ar.argsort(axis=0)    #sort cols in a ascending way
-print(sort0)
+print(sort0 )
 
 
 
